@@ -48,9 +48,9 @@ class table
             char ch;
             cout<<"Enter Y to Proceed or Q to Quit\n";
             cin>>ch;
-            if(ch=='Y')
+            if(ch=='Y' || ch=='y')
                 system("clear");
-            else if(ch=='Q')
+            else if(ch=='Q'|| ch=='q')
                 exit(0);
             else
             {
